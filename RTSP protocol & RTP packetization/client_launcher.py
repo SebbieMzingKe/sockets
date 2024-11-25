@@ -15,6 +15,9 @@ if __name__ == "__main__":
 	
 	# Create a new client
 	app = Client(root, serverAddr, serverPort, rtpPort, fileName)
+
+	# 192.168.0.106,  
+
 	app.master.title("RTPClient")	
 	root.mainloop()
 	
